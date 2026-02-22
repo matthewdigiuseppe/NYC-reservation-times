@@ -1,0 +1,44 @@
+## render.yaml — Render deployment configuration
+## https://render.com/docs/blueprint-spec
+##
+## Services defined:
+##   1. nyc-reservation-times      Web service (FastAPI)
+##   2. nyc-reservations-updater   Cron job (weekly scrape, Sundays 3am EST)
+
+services:
+  # ──────────────────────────────────────────────────────────────────────────
+  # 1. Web service
+  # ──────────────────────────────────────────────────────────────────────────
+  - type: web
+    name: nyc-reservation-times
+    runtime: python
+    plan: free                        # upgrade to starter for always-on
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false                   # set manually in Render dashboard
+      - key: UPDATE_API_KEY
+        sync: false                   # set manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: "3.11"
+    healthCheckPath: /health
+    autoDeploy: true
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # 2. Cron job — weekly update (Sundays at 8am UTC = 3am EST)
+  # ──────────────────────────────────────────────────────────────────────────
+  - type: cron
+    name: nyc-reservations-updater
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    schedule: "0 8 * * 0"            # Every Sunday at 08:00 UTC (= 3am EST)
+    command: python scripts/update.py
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: UPDATE_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11"

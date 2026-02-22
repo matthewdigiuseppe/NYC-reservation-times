@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Reservation Times</title>
+  <style>
+    :root {
+      --bg: #fafaf8;
+      --surface: #ffffff;
+      --border: #e5e5e0;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #c8400a;
+      --accent-light: #fff0eb;
+      --radius: 8px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 0 0 60px;
+    }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px 16px;
+    }
+    .site-header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .site-header .subtitle {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-top: 4px;
+    }
+    .site-header .meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 8px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    .badge {
+      background: var(--accent-light);
+      color: var(--accent);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    /* ── Filters ─────────────────────────────────────────────── */
+    .filters {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+    }
+    .filter-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: flex-end;
+    }
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .filter-group label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .filter-group select,
+    .filter-group input[type="text"] {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 7px 10px;
+      font-size: 0.88rem;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-width: 140px;
+    }
+    .filter-group input[type="text"] { min-width: 200px; }
+    .filter-group select:focus,
+    .filter-group input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+    .btn {
+      padding: 7px 18px;
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-family: var(--font);
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-secondary { background: var(--border); color: var(--text); }
+
+    /* ── Table container ─────────────────────────────────────── */
+    .table-wrapper {
+      padding: 20px 24px 0;
+      overflow-x: auto;
+    }
+
+    .result-count {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      background: var(--surface);
+    }
+    thead th:hover { color: var(--accent); }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+    tbody tr:hover { background: var(--accent-light); }
+
+    tbody td {
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+
+    .restaurant-name {
+      font-weight: 600;
+    }
+    .restaurant-name a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .restaurant-name a:hover { text-decoration: underline; }
+
+    .platform-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .platform-Resy       { background: #fff0f0; color: #c00; }
+    .platform-OpenTable  { background: #f0faf0; color: #1a7a1a; }
+    .platform-Tock       { background: #f0f0ff; color: #3030bb; }
+    .platform-Phone      { background: #fffbe0; color: #7a6000; }
+    .platform-Walk-in    { background: #f5f5f5; color: #555; }
+    .platform-Email      { background: #f0f8ff; color: #005a9e; }
+    .platform-Other      { background: #f5f0ff; color: #5500aa; }
+
+    .days-ahead {
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+    .days-ahead.unknown { color: var(--muted); font-weight: 400; }
+
+    .release-time {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .notes {
+      max-width: 320px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .verified-date { font-size: 0.78rem; color: var(--muted); white-space: nowrap; }
+
+    /* ── Empty state ─────────────────────────────────────────── */
+    .empty-state {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--muted);
+    }
+    .empty-state h2 { font-size: 1.1rem; margin-bottom: 8px; }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    .site-footer {
+      margin-top: 40px;
+      padding: 20px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .site-footer a { color: var(--accent); text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .site-header, .filters, .table-wrapper { padding-left: 16px; padding-right: 16px; }
+      .filter-group select,
+      .filter-group input[type="text"] { min-width: 0; width: 100%; }
+      .filter-form { flex-direction: column; }
+      .notes { max-width: 200px; }
+      td:nth-child(6), th:nth-child(6),   /* hide notes on mobile */
+      td:nth-child(7), th:nth-child(7)    { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>NYC Reservation Times</h1>
+  <p class="subtitle">When do the best NYC restaurants release reservations?</p>
+  <div class="meta">
+    <span>{{ total }} restaurant{{ 's' if total != 1 else '' }}</span>
+    <span class="badge">Last updated: {{ last_updated }}</span>
+    <a href="/data" style="color: var(--accent); font-size: 0.82rem; text-decoration: none;">JSON API</a>
+  </div>
+</header>
+
+<div class="filters">
+  <form class="filter-form" method="get" action="/">
+    <div class="filter-group">
+      <label for="q">Search</label>
+      <input type="text" id="q" name="q" value="{{ filter_q }}" placeholder="Restaurant name, cuisine…" />
+    </div>
+    <div class="filter-group">
+      <label for="platform">Platform</label>
+      <select id="platform" name="platform">
+        <option value="">All platforms</option>
+        {% for p in platforms %}
+        <option value="{{ p }}" {% if filter_platform == p %}selected{% endif %}>{{ p }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="neighborhood">Neighborhood</label>
+      <select id="neighborhood" name="neighborhood">
+        <option value="">All neighborhoods</option>
+        {% for n in neighborhoods %}
+        <option value="{{ n }}" {% if filter_neighborhood == n %}selected{% endif %}>{{ n }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cuisine">Cuisine</label>
+      <select id="cuisine" name="cuisine">
+        <option value="">All cuisines</option>
+        {% for c in cuisines %}
+        <option value="{{ c }}" {% if filter_cuisine == c %}selected{% endif %}>{{ c }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="filter-group" style="justify-content: flex-end;">
+      <label>&nbsp;</label>
+      <div style="display:flex; gap:8px;">
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a href="/" class="btn btn-secondary" style="text-decoration:none; display:flex; align-items:center;">Clear</a>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="table-wrapper">
+  <p class="result-count">{{ total }} result{{ 's' if total != 1 else '' }}</p>
+
+  {% if rows %}
+  <table id="resTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">Restaurant &#8597;</th>
+        <th onclick="sortTable(1)">Neighborhood &#8597;</th>
+        <th onclick="sortTable(2)">Cuisine &#8597;</th>
+        <th onclick="sortTable(3)">Platform &#8597;</th>
+        <th onclick="sortTable(4)">Days Ahead &#8597;</th>
+        <th onclick="sortTable(5)">Release Time (EST) &#8597;</th>
+        <th>Notes</th>
+        <th onclick="sortTable(7)">Verified &#8597;</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td class="restaurant-name">
+          <a href="{{ r.source_url }}" target="_blank" rel="noopener">{{ r.restaurant_name }}</a>
+        </td>
+        <td>{{ r.neighborhood }}</td>
+        <td>{{ r.cuisine }}</td>
+        <td>
+          <span class="platform-badge platform-{{ r.booking_platform | replace(' ', '-') }}">
+            {{ r.booking_platform }}
+          </span>
+        </td>
+        <td>
+          {% if r.release_days_ahead %}
+            <span class="days-ahead">{{ r.release_days_ahead }} days</span>
+          {% else %}
+            <span class="days-ahead unknown">—</span>
+          {% endif %}
+        </td>
+        <td class="release-time">
+          {% if r.release_time_est %}
+            {{ r.release_time_est }} EST
+          {% else %}
+            <span style="color: var(--muted);">—</span>
+          {% endif %}
+        </td>
+        <td class="notes">{{ r.release_notes }}</td>
+        <td class="verified-date">{{ r.last_verified }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% else %}
+  <div class="empty-state">
+    <h2>No restaurants found</h2>
+    <p>Try adjusting your filters or <a href="/">clearing all filters</a>.</p>
+  </div>
+  {% endif %}
+</div>
+
+<footer class="site-footer">
+  <span>Data updated weekly. Last updated: <strong>{{ last_updated }}</strong></span>
+  <a href="/data">JSON API</a>
+  <a href="/data/manual">Manual review list</a>
+  <a href="/health">Health check</a>
+</footer>
+
+<script>
+  // Client-side column sort
+  function sortTable(col) {
+    const table = document.getElementById("resTable");
+    const tbody = table.tBodies[0];
+    const rows = Array.from(tbody.rows);
+    const asc = table.dataset.sortCol == col && table.dataset.sortDir === "asc";
+    table.dataset.sortCol = col;
+    table.dataset.sortDir = asc ? "desc" : "asc";
+
+    rows.sort((a, b) => {
+      let av = a.cells[col]?.innerText.trim() ?? "";
+      let bv = b.cells[col]?.innerText.trim() ?? "";
+      // Numeric sort for "Days Ahead" column
+      if (col === 4) {
+        const an = parseInt(av) || 9999;
+        const bn = parseInt(bv) || 9999;
+        return asc ? bn - an : an - bn;
+      }
+      return asc ? bv.localeCompare(av) : av.localeCompare(bv);
+    });
+
+    rows.forEach(r => tbody.appendChild(r));
+  }
+</script>
+
+</body>
+</html>
