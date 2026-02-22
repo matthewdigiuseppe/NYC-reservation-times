@@ -1,0 +1,2 @@
+restaurant_name,neighborhood,cuisine,booking_platform,release_days_ahead,release_time_est,release_notes,last_verified,source_url,reason
+Rao's,East Harlem,Italian-American,Phone,,,Famously impossible to book. Tables 'owned' by regulars for decades. No public reservations — connections only.,2026-02-22,https://www.raos.com/reservations,Manual release schedule — no automated booking platform

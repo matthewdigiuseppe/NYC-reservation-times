@@ -1,0 +1,128 @@
+restaurant_name,neighborhood,cuisine,booking_platform,release_days_ahead,release_time_est,release_notes,last_verified,source_url
+Carbone,Greenwich Village,Italian-American,Resy,28,00:00,Drops at midnight EST exactly 28 days out; floods within seconds. Bar seats and late slots slightly easier.,2026-02-22,https://resy.com/cities/ny/venues/carbone
+Via Carota,West Village,Italian,Resy,28,00:00,28-day midnight drop. No phone or walk-in priority; all inventory released online.,2026-02-22,https://resy.com/cities/ny/venues/via-carota
+Don Angie,West Village,Italian-American,Resy,28,00:00,Midnight 28-day drop on Resy. Consistently one of the hardest tables in the city.,2026-02-22,https://resy.com/cities/ny/venues/don-angie
+Lilia,Williamsburg,Italian,Resy,28,00:00,28-day midnight Resy drop. Some seats reserved for bar; weeknight brunch slightly easier.,2026-02-22,https://resy.com/cities/ny/venues/lilia
+Tatiana by Kwame Onwuachi,Upper West Side,Afro-Caribbean,Resy,28,00:00,Opens at midnight 28 days ahead. Gained global attention; slots go within minutes of drop.,2026-02-22,https://resy.com/cities/ny/venues/tatiana-by-kwame-onwuachi
+Frenchette,Tribeca,French,Resy,28,00:00,Standard 28-day Resy window. Bar seats available walk-in.,2026-02-22,https://resy.com/cities/ny/venues/frenchette
+Estela,Nolita,Mediterranean,Resy,28,00:00,28-day drop. Bar and counter seats may be available without reservations.,2026-02-22,https://resy.com/cities/ny/venues/estela
+L'Artusi,West Village,Italian,Resy,28,00:00,28-day Resy drop. Upstairs bar area may accept walk-ins.,2026-02-22,https://resy.com/cities/ny/venues/l-artusi
+Torrisi,Nolita,Italian-American,Resy,28,00:00,High-demand revival. 28-day Resy window; sells out quickly.,2026-02-22,https://resy.com/cities/ny/venues/torrisi-bar-and-restaurant
+4 Charles Prime Rib,West Village,Steakhouse,Resy,28,00:00,Intimate 30-seat room; 28-day Resy drop extremely competitive. Dinner only.,2026-02-22,https://resy.com/cities/ny/venues/4-charles-prime-rib
+Crown Shy,Financial District,American,Resy,28,00:00,28-day window. Lunch often easier than dinner.,2026-02-22,https://resy.com/cities/ny/venues/crown-shy
+Gramercy Tavern,Gramercy,American,Resy,28,00:00,28-day Resy drop. Tavern room (front bar) takes walk-ins; dining room reservations required.,2026-02-22,https://resy.com/cities/ny/venues/gramercy-tavern
+The Modern,Midtown,American-French,Resy,30,00:00,30-day Resy drop. Bar Room walk-ins frequently available; Dining Room requires advance booking.,2026-02-22,https://resy.com/cities/ny/venues/the-modern
+Aquavit,Midtown,Scandinavian,Resy,30,09:00,"30-day window, releases at 9am EST. Bar menu available walk-in.",2026-02-22,https://resy.com/cities/ny/venues/aquavit
+Semma,Greenwich Village,South Indian,Resy,28,00:00,1-Michelin-star South Indian. 28-day midnight Resy drop; extremely hard to book.,2026-02-22,https://resy.com/cities/ny/venues/semma
+Rezdôra,Flatiron,Italian (Emilian),Resy,28,00:00,28-day midnight drop. Known for hand-rolled pasta; very competitive.,2026-02-22,https://resy.com/cities/ny/venues/rezdora
+Jua,Flatiron,Korean,Resy,28,00:00,"Intimate Korean spot; 28-day Resy window, books out fast.",2026-02-22,https://resy.com/cities/ny/venues/jua
+Le Bernardin,Midtown,French Seafood,Resy,30,09:00,3-Michelin-star. Opens 30 days ahead; releases at 9am EST. Lunch often easier than dinner.,2026-02-22,https://resy.com/cities/ny/venues/le-bernardin
+Daniel,Upper East Side,French,Resy,30,09:00,2-Michelin-star. 30-day window. Café Boulud (sister restaurant) easier to book.,2026-02-22,https://resy.com/cities/ny/venues/daniel
+Jean-Georges,Upper West Side,French-American,Resy,30,09:00,"3-Michelin-star. 30-day window, 9am releases. Nougatine (front room) easier to book.",2026-02-22,https://resy.com/cities/ny/venues/jean-georges
+Eleven Madison Park,Flatiron,Plant-based Tasting Menu,Resy,60,09:00,3-Michelin-star. Releases 60 days ahead at 9am EST. Plant-based tasting menu only. Full prepay required.,2026-02-22,https://resy.com/cities/ny/venues/eleven-madison-park
+Atomix,Midtown,Korean Tasting Menu,Resy,60,10:00,2-Michelin-star. Releases 60 days ahead. Bar Atomix (counter) slightly easier; both book quickly.,2026-02-22,https://resy.com/cities/ny/venues/atomix
+Atera,Tribeca,New Nordic Tasting Menu,Resy,60,09:00,2-Michelin-star. 60-day window. Small counter seating; books out far in advance.,2026-02-22,https://resy.com/cities/ny/venues/atera
+Aska,Williamsburg,Scandinavian Tasting Menu,Resy,60,10:00,2-Michelin-star. Releases 60 days ahead. Very small dining room (26 seats).,2026-02-22,https://resy.com/cities/ny/venues/aska
+Blanca,Bushwick,Italian Tasting Menu,Resy,60,10:00,2-Michelin-star. Tiny 12-seat restaurant. 60-day Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/blanca
+Buvette,West Village,French,Resy,28,00:00,28-day window. Breakfast/brunch walk-ins usually fine; dinner competitive.,2026-02-22,https://resy.com/cities/ny/venues/buvette
+Balthazar,SoHo,French Brasserie,Resy,28,00:00,Classic brasserie. 28-day window; bar and early/late slots often available.,2026-02-22,https://resy.com/cities/ny/venues/balthazar
+Sadelle's,SoHo,Jewish-American,Resy,28,00:00,Weekend brunch is extremely competitive; weekday breakfast easier. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/sadelles
+Nobu Downtown,Tribeca,Japanese-Peruvian,Resy,28,00:00,28-day Resy window. Sushi bar and lounge sometimes available same-day.,2026-02-22,https://resy.com/cities/ny/venues/nobu-downtown
+Nobu 57,Midtown,Japanese-Peruvian,Resy,28,00:00,28-day Resy window. Midtown location typically easier to book than Downtown.,2026-02-22,https://resy.com/cities/ny/venues/nobu-57
+Cote,Flatiron,Korean Steakhouse,Resy,28,00:00,1-Michelin-star Korean BBQ. 28-day window; weekend prime times go fast.,2026-02-22,https://resy.com/cities/ny/venues/cote-korean-steakhouse
+Olmsted,Prospect Heights,American,Resy,28,00:00,1-Michelin-star Brooklyn American. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/olmsted
+Maison Premiere,Williamsburg,Oyster Bar,Resy,28,00:00,Garden and bar areas take walk-ins; dining room 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/maison-premiere
+Oiji Mi,Flatiron,Modern Korean,Resy,28,00:00,1-Michelin-star. 28-day midnight Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/oiji-mi
+Dhamaka,Lower East Side,South Asian,Resy,28,00:00,1-Michelin-star. Adventurous regional Indian. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/dhamaka
+Oxomoco,Greenpoint,Mexican,Resy,28,00:00,1-Michelin-star wood-fired Mexican. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/oxomoco
+Laser Wolf,Williamsburg,Israeli,Resy,28,00:00,Rooftop Israeli spot from Zahav team. 28-day drop; outdoor/bar areas easier.,2026-02-22,https://resy.com/cities/ny/venues/laser-wolf-brooklyn
+Saga,Financial District,American Tasting Menu,Resy,30,09:00,1-Michelin-star. 30-day window. Includes 60th-floor bar experience. Counter 45 (sister) easier.,2026-02-22,https://resy.com/cities/ny/venues/saga
+Manhatta,Financial District,American,Resy,28,00:00,60th floor views. 28-day window; lunch easier than dinner.,2026-02-22,https://resy.com/cities/ny/venues/manhatta
+One White Street,Tribeca,American,Resy,28,00:00,Farm-to-table Tribeca spot. 1-Michelin-star. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/one-white-street
+Ci Siamo,Hudson Yards,Italian,Resy,28,00:00,Danny Meyer Italian. 28-day Resy window. Bar area sometimes available walk-in.,2026-02-22,https://resy.com/cities/ny/venues/ci-siamo
+Shukette,Chelsea,Israeli,Resy,28,00:00,Sister to Shuka. 28-day Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/shukette
+Claro,Gowanus,Oaxacan,Resy,28,00:00,1-Michelin-star Oaxacan. 28-day window. Patio popular in warm weather.,2026-02-22,https://resy.com/cities/ny/venues/claro
+Oxalis,Prospect Heights,French-American,Resy,28,00:00,1-Michelin-star. 28-day window. Intimate neighborhood spot in Brooklyn.,2026-02-22,https://resy.com/cities/ny/venues/oxalis
+Carne Mare,Financial District,Steakhouse,Resy,28,00:00,Andrew Carmellini steakhouse. 28-day Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/carne-mare
+King,SoHo,French-Italian,Resy,28,00:00,Charming SoHo spot. 28-day window. Difficult on weekends.,2026-02-22,https://resy.com/cities/ny/venues/king-restaurant
+Loring Place,Greenwich Village,American,Resy,28,00:00,Dan Kluger's Greenwich Village restaurant. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/loring-place
+Sunday in Brooklyn,Williamsburg,American,Resy,28,00:00,Popular brunch spot. 28-day Resy. Brunch slots book out far faster than dinner.,2026-02-22,https://resy.com/cities/ny/venues/sunday-in-brooklyn
+Fausto,Park Slope,Italian-American,Resy,28,00:00,Beloved Park Slope Italian. 28-day window. Weekend dinner hardest.,2026-02-22,https://resy.com/cities/ny/venues/fausto
+Cadence,East Village,Soul Food Vegan,Resy,28,00:00,1-Michelin-star vegan soul food. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/cadence
+Dirt Candy,Lower East Side,Vegetarian,Resy,28,00:00,1-Michelin-star vegetarian. 28-day Resy drop. Counter seats sometimes walk-in.,2026-02-22,https://resy.com/cities/ny/venues/dirt-candy
+Llama Inn,Williamsburg,Peruvian,Resy,28,00:00,Rooftop Peruvian. 28-day Resy window. Roof bar more accessible.,2026-02-22,https://resy.com/cities/ny/venues/llama-inn
+Forsythia,Lower East Side,American,Resy,28,00:00,LES American. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/forsythia
+Indian Accent,Midtown,Modern Indian,Resy,28,00:00,1-Michelin-star modern Indian. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/indian-accent-new-york
+Bar Primi,East Village,Italian,Resy,28,00:00,Pasta-focused. 28-day Resy drop. Bar often walk-in.,2026-02-22,https://resy.com/cities/ny/venues/bar-primi
+Charlie Bird,SoHo,Italian-American,Resy,28,00:00,SoHo neighborhood staple. 28-day window.,2026-02-22,https://resy.com/cities/ny/venues/charlie-bird
+Cookshop,Chelsea,American,Resy,28,00:00,Chelsea Market-adjacent. 28-day window. Brunch very popular.,2026-02-22,https://resy.com/cities/ny/venues/cookshop
+Frankies 457 Spuntino,Carroll Gardens,Italian,Resy,28,00:00,Beloved Brooklyn Italian. 28-day window. Garden very popular.,2026-02-22,https://resy.com/cities/ny/venues/frankies-457-spuntino
+Flora Bar,Upper East Side,American,Resy,28,00:00,Inside The Met Breuer. 28-day Resy window. Lunch often easier.,2026-02-22,https://resy.com/cities/ny/venues/flora-bar
+Nix,Greenwich Village,Vegetarian,Resy,28,00:00,1-Michelin-star vegetarian. 28-day window.,2026-02-22,https://resy.com/cities/ny/venues/nix
+Sartiano's,SoHo,Italian,Resy,28,00:00,SoHo Italian. 28-day Resy window. Private club adjacent.,2026-02-22,https://resy.com/cities/ny/venues/sartianos
+Per Se,Columbus Circle,French-American Tasting Menu,OpenTable,60,10:00,3-Michelin-star. Releases 60 days ahead via OpenTable. Full prepayment required. Lunch slightly easier.,2026-02-22,https://www.opentable.com/per-se
+Masa,Columbus Circle,Japanese Omakase,OpenTable,90,10:00,3-Michelin-star. Most expensive restaurant in the US. 90-day window; phone confirmations required. Bar Masa (counter) slightly more accessible.,2026-02-22,https://www.opentable.com/masa-new-york
+Gabriel Kreuther,Midtown,Alsatian-American,OpenTable,60,09:00,2-Michelin-star. 60-day OpenTable window. Lounge menu more accessible.,2026-02-22,https://www.opentable.com/gabriel-kreuther
+Sushi Yasuda,Midtown,Japanese Sushi,OpenTable,30,09:00,1-Michelin-star. 30-day window on OpenTable. Omakase counter reserved well in advance.,2026-02-22,https://www.opentable.com/sushi-yasuda
+Peter Luger Steak House,Williamsburg,Steakhouse,OpenTable,30,09:00,Iconic cash-only steakhouse. OpenTable but walk-ins at bar accepted. Weekend prime times book 4+ weeks ahead.,2026-02-22,https://www.opentable.com/peter-luger-steak-house
+The River Cafe,DUMBO,American,OpenTable,30,09:00,Iconic Brooklyn Bridge views. 30-day OpenTable window. Jacket required.,2026-02-22,https://www.opentable.com/the-river-cafe
+Ai Fiori,Midtown,Italian-French,OpenTable,30,09:00,1-Michelin-star. 30-day OpenTable window.,2026-02-22,https://www.opentable.com/ai-fiori
+Gotham,Greenwich Village,American,OpenTable,30,09:00,Reopened 2022. 30-day OpenTable window.,2026-02-22,https://www.opentable.com/gotham-restaurant
+Keens Steakhouse,Midtown,Steakhouse,OpenTable,30,09:00,Legendary 1885 steakhouse. 30-day window. Prime mutton chop famous.,2026-02-22,https://www.opentable.com/keens-steakhouse
+Minetta Tavern,Greenwich Village,French-American Bistro,Resy,28,00:00,Keith McNally brasserie. Black Label Burger famous. Now on Resy. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/minetta-tavern
+Casa Lever,Midtown,Italian,OpenTable,28,09:00,Power lunch destination. 28-day window. Lunch prime times book fast.,2026-02-22,https://www.opentable.com/casa-lever
+The Pool,Midtown,American,OpenTable,30,09:00,Inside the Seagram Building. 30-day window. Lunch popular with Midtown crowd.,2026-02-22,https://www.opentable.com/the-pool-restaurant-new-york
+Quality Eats,West Village,Steakhouse,OpenTable,28,09:00,Affordable steakhouse. 28-day window. Walk-in bar seating often available.,2026-02-22,https://www.opentable.com/quality-eats-west-village
+Ko (Momofuku Ko),East Village,American Tasting Menu,OpenTable,30,00:00,2-Michelin-star. OpenTable drop at midnight 30 days ahead. One of the hardest reservations in NYC history. Counter and lounge seating.,2026-02-22,https://www.opentable.com/r/momofuku-ko-counter-seating-new-york
+Chef's Table at Brooklyn Fare,Downtown Brooklyn,French Tasting Menu,Tock,60,10:00,3-Michelin-star. 18-seat counter. Releases 60 days ahead via Tock. Full prepayment required.,2026-02-22,https://www.exploretock.com/brooklynfare
+Shoji at 69 Leonard,Tribeca,Japanese Omakase,Tock,30,00:00,1-Michelin-star omakase. Intimate 8-seat counter. 30-day Tock drop; sells out within seconds.,2026-02-22,https://www.exploretock.com/shoji
+Sushi Noz,Upper East Side,Japanese Omakase (Edomae),OpenTable,60,10:00,2-Michelin-star. 10-seat hinoki cypress counter. 60-day release on OpenTable. Full prepay required.,2026-02-22,https://www.opentable.com/r/sushi-noz-new-york
+Noda,Midtown,Japanese Omakase,Tock,60,10:00,1-Michelin-star. 8-seat omakase. Releases 60 days ahead on Tock.,2026-02-22,https://www.exploretock.com/nodalcnyc
+Sushi Nakazawa,West Village,Japanese Omakase,Resy,30,00:00,1-Michelin-star. Inspired by Jiro Dreams of Sushi. 30-day Resy drop. Counter vs. dining room both competitive.,2026-02-22,https://resy.com/cities/ny/venues/sushi-nakazawa
+Sushi Amane,Midtown,Japanese Omakase,Tock,60,10:00,2-Michelin-star. 10-seat counter. 60-day release on Tock.,2026-02-22,https://www.exploretock.com/sushiamane
+Ugly Baby,Carroll Gardens,Thai,Tock,28,00:00,1-Michelin-star. Fiercely spicy Thai. 28-day Tock drop. Extremely competitive.,2026-02-22,https://www.exploretock.com/uglybaby
+Torien,SoHo,Japanese Yakitori,Tock,30,00:00,1-Michelin-star. Counter yakitori omakase. 30-day Tock window.,2026-02-22,https://www.exploretock.com/torien-nyc
+Momofuku Noodle Bar,East Village,Japanese-American,Tock,28,00:00,The original Momofuku. 28-day Tock window. Walk-in bar seating often available.,2026-02-22,https://www.exploretock.com/momofukunoodlebar
+Nari,Midtown,Thai,Tock,28,00:00,1-Michelin-star Thai in Midtown. 28-day Tock drop.,2026-02-22,https://www.exploretock.com/nari-nyc
+Sushi by Bou,Midtown,Japanese Omakase,Tock,14,09:00,Accessible omakase concept; releases 14 days ahead. Multiple seatings per day.,2026-02-22,https://www.exploretock.com/sushibybou
+Lucali,Carroll Gardens,Neapolitan Pizza,Resy,14,10:00,Now on Resy (walk-in waitlist). Also accepts walk-ins from 4pm. Cash only. Closed Tuesdays. 14-day online window but walk-in remains the classic approach.,2026-02-22,https://resy.com/cities/ny/venues/lucali
+Rao's,East Harlem,Italian-American,Phone,,,Famously impossible to book. Tables 'owned' by regulars for decades. No public reservations — connections only.,2026-02-22,https://www.raos.com/reservations
+Bar Goto Niban,Williamsburg,Japanese Bar,Resy,28,00:00,28-day Resy drop. Small Japanese cocktail bar; bar seats walk-in.,2026-02-22,https://resy.com/cities/ny/venues/bar-goto-niban
+Jungsik,Tribeca,Modern Korean Fine Dining,Tock,60,10:00,2-Michelin-star. Modern Korean tasting menu. 60-day Tock window.,2026-02-22,https://www.exploretock.com/jungsik
+Yoshino,Tribeca,Japanese Sushi Omakase (Edomae),Tock,60,10:00,2-Michelin-star. Intimate Edomae omakase. 60-day Tock window; very small seating.,2026-02-22,https://www.exploretock.com/yoshinonewyork
+Noz 17,Chelsea,Japanese Sushi Omakase (Edomae),Tock,60,10:00,Sister to Sushi Noz. Counter omakase. 60-day Tock window.,2026-02-22,https://www.exploretock.com/noz17
+Frevo,West Village,Contemporary Tasting Menu,Tock,30,10:00,1-Michelin-star. Art gallery tasting menu. Intimate counter. 30-day Tock window.,2026-02-22,https://www.exploretock.com/frevo
+Icca,Lower East Side,Japanese Omakase,Tock,60,10:00,1-Michelin-star. Traditional Japanese omakase. 60-day Tock release.,2026-02-22,https://www.exploretock.com/icca
+I Sodi,West Village,Tuscan Italian,Resy,28,00:00,Intimate Tuscan. 28-day midnight drop. Walk-in bar seats sometimes available.,2026-02-22,https://resy.com/cities/ny/venues/i-sodi
+Joji,Midtown East,Japanese Omakase,Resy,60,10:00,2-Michelin-star. Omakase inside One Vanderbilt. 60-day Resy window. Joji Bar easier.,2026-02-22,https://resy.com/cities/ny/venues/joji
+Le Coucou,SoHo,Classic French,Resy,28,00:00,1-Michelin-star. Daniel Boulud-adjacent classic French. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/le-coucou
+Shota Omakase,Williamsburg,Japanese Sushi Omakase,Resy,30,00:00,1-Michelin-star Brooklyn omakase. 30-day drop. Small counter seating.,2026-02-22,https://resy.com/cities/ny/venues/shota-omakase
+Nōksu,Midtown,Contemporary Seafood Tasting Menu,Resy,30,10:00,1-Michelin-star seafood counter. 30-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/noksu
+Corima,Lower East Side,Modern Northern Mexican,Resy,28,00:00,1-Michelin-star. Contemporary Baja/Northern Mexican tasting menu. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/corima
+The Four Horsemen,Williamsburg,Contemporary American (Natural Wine Bar),Resy,28,00:00,1-Michelin-star. James Murphy (LCD Soundsystem) natural wine bar. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/the-four-horsemen
+Francie,Williamsburg,French-Italian Brasserie,Resy,28,00:00,1-Michelin-star Williamsburg brasserie. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/francie
+Claud,East Village,Contemporary European,Resy,28,00:00,1-Michelin-star French-leaning East Village spot. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/claud
+Le Crocodile,Williamsburg,French Brasserie,Resy,28,00:00,1-Michelin-star Williamsburg French brasserie. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/le-crocodile
+Wildair,Lower East Side,Contemporary American (Natural Wine),OpenTable,28,09:00,1-Michelin-star LES natural wine bar. 28-day window. Bar walk-ins accepted.,2026-02-22,https://www.opentable.com/r/wildair-new-york
+Coqodaq,Flatiron,Korean Fried Chicken,Resy,28,00:00,1-Michelin-star Korean fried chicken temple. 28-day midnight drop; extremely competitive.,2026-02-22,https://resy.com/cities/ny/venues/coqodaq
+Bungalow,West Village,Modern Indian,Resy,28,00:00,Regional pan-India tasting menu. 28-day drop. Very popular with Indian food lovers.,2026-02-22,https://resy.com/cities/ny/venues/bungalow-nyc
+The Corner Store,SoHo,Contemporary American,Resy,28,00:00,1-Michelin-star. Nobu Matsuhisa and Richie Akiva project. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/the-corner-store
+The Polo Bar,Midtown East,American (Classic Clubhouse),Resy,28,00:00,Ralph Lauren's see-and-be-seen dining room. 28-day Resy drop; very competitive for prime times.,2026-02-22,https://resy.com/cities/ny/venues/the-polo-bar
+Gage & Tollner,Downtown Brooklyn,American Chophouse (Historic Revival),OpenTable,30,09:00,Historic 1879 Brooklyn restaurant revived. 30-day OpenTable window.,2026-02-22,https://www.opentable.com/r/gage-and-tollner-brooklyn
+Atoboy,Flatiron,Modern Korean,Resy,28,00:00,1-Michelin-star. Sister to Atomix; more accessible but still competitive. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/atoboy
+Mari,West Village,Modern Korean,Resy,28,00:00,1-Michelin-star Korean tasting menu. 28-day midnight drop.,2026-02-22,https://resy.com/cities/ny/venues/mari-nyc
+Le Pavillon,Midtown East,Vegetable-Focused French,Resy,30,09:00,1-Michelin-star. Daniel Boulud vegetable-focused concept. 30-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/le-pavillon
+Restaurant Yuu,Williamsburg,French-Japanese Fusion,Resy,30,10:00,1-Michelin-star. French-Japanese tasting menu. Small counter. 30-day Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/restaurant-yuu
+Tempura Matsui,Midtown East,Japanese Tempura Omakase,OpenTable,30,09:00,1-Michelin-star. Counter tempura omakase. 30-day OpenTable window.,2026-02-22,https://www.opentable.com/r/tempura-matsui-new-york
+Tsukimi,East Village,Japanese Kaiseki,OpenTable,30,09:00,1-Michelin-star. Counter kaiseki omakase. 30-day OpenTable window.,2026-02-22,https://www.opentable.com/r/tsukimi-new-york
+Yamada,Midtown East,Japanese Kaiseki,Resy,60,10:00,1-Michelin-star. Authentic Japanese kaiseki counter. 60-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/yamada-nyc
+Marea,Midtown West,Italian Seafood,Resy,30,09:00,2-Michelin-star Italian seafood. 30-day Resy window. Lunch often easier than dinner.,2026-02-22,https://resy.com/cities/ny/venues/marea
+Jeju Noodle Bar,West Village,Korean Ramen,Resy,28,00:00,1-Michelin-star Korean ramen. Very small (30 seats). 28-day midnight drop; notoriously hard to book.,2026-02-22,https://resy.com/cities/ny/venues/jeju-noodle-bar
+Le Veau d'Or,Upper East Side,Classic French Bistro,Resy,28,00:00,1-Michelin-star. Revived 1937 UES French classic by Lee Hanson and Riad Nasr. 28-day drop.,2026-02-22,https://resy.com/cities/ny/venues/le-veau-dor
+Sushi Katsuei,Park Slope,Japanese Sushi Omakase,Resy,28,00:00,1-Michelin-star Brooklyn sushi omakase. 28-day drop. Counter seats only.,2026-02-22,https://resy.com/cities/ny/venues/sushi-katsuei
+Il Buco,NoHo,Italian-Mediterranean (Rustic),Resy,28,00:00,Beloved NoHo Italian since 1994. 28-day drop. Very popular for special occasions.,2026-02-22,https://resy.com/cities/ny/venues/il-buco
+Muku,Midtown West,Japanese Kaiseki,Resy,30,10:00,1-Michelin-star kaiseki. 30-day Resy window. Counter seating.,2026-02-22,https://resy.com/cities/ny/venues/muku-nyc
+The Grill,Midtown East,American Continental,Resy,28,00:00,Inside the Seagram Building. Power lunch scene. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/the-grill
+Naro,NoMad,Modern Korean,Resy,28,00:00,1-Michelin-star. Contemporary Korean tasting menu. 28-day midnight Resy drop.,2026-02-22,https://resy.com/cities/ny/venues/naro
+Sailor,Carroll Gardens,Contemporary American,Resy,28,00:00,Brooklyn neighborhood favorite. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/sailor
+Tuome,East Village,Contemporary Asian-American,Resy,28,00:00,1-Michelin-star. Contemporary Asian-American. 28-day Resy window.,2026-02-22,https://resy.com/cities/ny/venues/tuome
